@@ -75,7 +75,7 @@ X{3}(:,2) = X{3}(:,2) + 1;
 Yhat = X{3}*B;
 resids = Y - Yhat;
 
-titleText{3} = sprintf('Model 3: badScans (non binary) (beta1 = %.3f, resids = %.3f)', B(1), mean(resids));
+titleText{3} = sprintf('Model 3: badScans (nonzero) (beta1 = %.3f, resids = %.3f)', B(1), mean(resids));
 
 
 
