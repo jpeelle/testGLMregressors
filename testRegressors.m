@@ -1,6 +1,6 @@
 % Test impact of regressors and scaling on beta estimation.
 %
-% Requires glm.m and t2p.m (from Rik Henson), and SPM
+% Requires glm.m F2R.m and t2p.m (from Rik Henson), and SPM
 %
 % Jonathan Peelle
 % First version: March 2018
