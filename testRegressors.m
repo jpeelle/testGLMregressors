@@ -21,7 +21,7 @@ badScans = [20];
 % so that it looks sort of like a block design fMRI study...)
 
 boxCar = repmat([zeros(8,1); ones(5,1)], 4, 1);
-Y = boxCar + noiseScale*randn(length(boxCar),1)
+Y = boxCar + noiseScale*randn(length(boxCar),1);
 t = 1:length(Y);
 
 figure
